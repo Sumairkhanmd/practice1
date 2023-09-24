@@ -8,7 +8,7 @@ public class Array_demo {
         for(int i=0;i<arr.length;i++){
             arr[i] = sc.nextInt();
         }
-
+        arr[3] +=10;
         //Output
         for(int i=0;i<arr.length;i++){
             System.out.println(arr[i]);
