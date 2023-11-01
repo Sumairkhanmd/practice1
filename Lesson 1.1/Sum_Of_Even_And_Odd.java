@@ -23,5 +23,6 @@ public class Sum_Of_Even_And_Odd {
         }
         System.out.print("The sum of even digits is: "+Even_Sum);
         System.out.print("The sum of odd digits is: "+Odd_Sum);
+        sc.close();
     }
 }
