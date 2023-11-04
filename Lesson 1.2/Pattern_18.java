@@ -13,8 +13,6 @@ public class Pattern_18{
         int n = sc.nextInt();
         
         //Logic
-       
-        
         for(int i=1;i<=n;i++){
             char alpha = 'A';
             for(int j=1;j<n;j++){
@@ -27,5 +25,6 @@ public class Pattern_18{
             }
             System.out.print("\n");
         }
+        sc.close();
     }
 }
