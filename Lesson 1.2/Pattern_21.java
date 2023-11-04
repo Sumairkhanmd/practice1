@@ -34,5 +34,6 @@ public class Pattern_21 {
             System.out.print("*");
         }
     }
+    sc.close();
     }
 }
