@@ -1,23 +1,24 @@
 import java.util.Scanner;
-public class Pattern_10 {
+public class Pattern_11 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         //Input
         int n = sc.nextInt();
-        
+        int var = 1;
         //Logic
-        //star
         for(int i=1;i<=n;i++){
-            for(int j=0;j<i;j++){
-                System.out.print("*");
+            if(i % 2 != 0){
+                var = 1;
             }
-        System.out.print("\n");
-        }
-        for(int i=n-1;i>=1;i--){
-            for(int j=0;j<i;j++){
-                System.out.print("*");
+            else{
+                var = 0;
             }
-        System.out.print("\n");
+            for(int j=0;j<i;j++){
+                System.out.print(var);
+                System.out.print(" ");
+                var = 1 - var;
+            }
+            System.out.print("\n");
         }
         sc.close();
     }
